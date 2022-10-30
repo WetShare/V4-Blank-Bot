@@ -2,7 +2,7 @@ const { Client, EmbedBuilder } = require("discord.js");
 
 module.exports = {
   name: "ping",
-  description: "Bot'un ping değerlerini öğrenirsiniz",
+  description: "You Will Se Bots Ping",
   type: 1,
   options: [],
 
