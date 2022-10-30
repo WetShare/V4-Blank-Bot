@@ -12,6 +12,7 @@ module.exports = async (client) => {
   } catch (error) {
     console.error(error);
   }
-
-    console.log(`${client.user.tag} Aktif!`);
+    
+    client.user.setActivity('V14 Blank Bot | Wet')
+    console.log(`${client.user.tag} Is Online!`);
 };
